@@ -1,0 +1,1472 @@
+# Este arquivo viminfo foi gerado pelo Vim 7.4.
+# Você pode editá-lo se for cuidadoso!
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último padrão de busca :
+~MSle0~/msg
+
+# Último padrão de busca  de substituição:
+~MSle0&>-
+
+# Última string de substituição:
+$  
+
+# Histórico de Linha de comando (mais recente primeiro):
+:q
+:!
+:/msg
+:qa
+:w
+:/sa_set_in
+:/bfcp
+:wqa
+:noh
+:qa!
+:wq
+:%s/143.54.10.164/143.54.83.247/gc
+:/listen
+:/bfcp_listen
+:W
+:2w
+:wa
+:qall
+:set nopaste
+:set paste
+:q!
+:/bfcp_reqstatus
+:/mem_deref
+:/bfcp_transp
+:.qall
+:w pravbfcp_cpp.cpp
+:w pravbfcp_hpp.cpp
+:/PATTERNS
+:w pravbfcp_cpp2.cpp
+:/bfcp_request
+:/Thread
+:/thread
+:w ~/dev/redemo-0.4.1/src/
+:wqall
+:/Start
+:/ereply
+:/transp
+:!grep mem_deref */*.c
+:!grep libre_init */*.c
+:/libre_init
+:!cat ~/dev/pravbfcp_hpp.cpp 
+:%s/>-/  /g
+:%s/>->-/		/g
+:/redis
+:/main
+:NERDTree
+:/redisCommand
+:/reply
+:/Connect
+:/Tcp
+
+# Histórico de Expressões de busca (mais recente primeiro):
+? msg
+? \<sa\>
+? sa_set_in
+? \<m_connection\>
+? bfcp
+? \<bfcp_transp\>
+?/bfcp
+? \<transport\>
+? \<bfcpConnection\>
+? \<bfcpListen\>
+? {
+? \<libreInit\>
+? \<arg\>
+? \<bc\>
+? \<tp\>
+? \<recvh\>
+?/kurento
+? 143.54.10.164
+? \<bfcp_conn\>
+? listen
+? bfcp_listen
+? }
+?/bfcp_prim
+?/bfcp_prim_attr
+?/bfcp_recv_handler
+?/\chello
+?/listen
+?/\cbfcp
+?/start_bfcp
+?/bfcp_start
+?/start
+?/kusteb
+?/PravBFCP
+? \<createPublishConnection\>
+?/tcp
+?/prav
+?/LIBRE
+?/\cLIB
+?/LIBRE_INC
+?/include
+?/LIBS
+?/DFLAGS
+?/qweqw
+?/\c
+?/ex
+?/LEX
+?/TARGET
+?/$TARGET
+?/all
+?/YACC
+
+# Histórico de Expressão (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Histórico de Linhas de entrada (mais recente primeiro):
+
+# Registradores:
+"0	LINE	0
+	#include <inttypes.h>
+"1	LINE	0
+	#include "re.h"
+"2	LINE	0
+	#include "re.h"
+"3	LINE	0
+	#include "re.h"
+	
+"4	LINE	0
+	
+"5	LINE	0
+	#include "dd.h"
+"6	LINE	0
+	
+"7	LINE	0
+	DEMOS>  += pravbfcp
+"8	LINE	0
+	
+"9	CHAR	0
+	/*
+	 *  TO DEFINE:
+	 *  libreInit (in bfcpInit) --from libre bfcp
+	 *
+	 *  memDeref (inf bfcpFree) -- from libre bfcp
+	 *
+	 *  bfcpMsg (struct) -- from libre bfcp
+	 *
+	 *  (in bfcpRecvHandler)
+	 *  bfcpReqStatus -- from libre bfcp
+	 *  bfcpPrimName -- from libre bfcp
+	 *  bfcpReply -- from libre bfcp
+	 *  bfcpEReply -- from libre bfcp
+	 *
+	 *  (in listen)
+	 *  AF_INET -- from libre bfcp
+	 *  inet_addr
+	 *  bfcpListen -- from libre bfcp
+	 *  bfcpTransp -- from libre bfcp
+	 *
+	 * (in bfcpStart)
+	 * bfcpRequest -- from libre bfcp
+	 * bfcpReqStatus -- from libre bfcp
+	 *
+	 * (in bfcpResHandler)
+	 * bfcpPrimName -- from libre bfcp
+	 */
+	
+	
+"a	CHAR	0
+	
+""-	CHAR	0
+	1
+
+# Marcas nos arquivos:
+'0  40  25  ~/dev/mcs-sip/config/default.json
+'1  1  0  ~/.ssh/id_rsa.pub
+'2  1  0  ~/dev/re-0.5.4/include/re_types.h
+'3  29  7  ~/dev/re-0.5.4/src/sa/sa.c
+'4  8  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+'5  1  0  ~/dev/re-0.5.4/src/sa/sa.
+'6  16  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+'7  9  0  ~/dev/re-0.5.4/src/sa/sa.c
+'8  28  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+'9  93  8  ~/dev/re-0.5.4/src/bfcp/conn.c
+
+# Lista de saltos (mais recente primeiro):
+-'  40  25  ~/dev/mcs-sip/config/default.json
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/dev/re-0.5.4/include/re_types.h
+-'  29  7  ~/dev/re-0.5.4/src/sa/sa.c
+-'  12  13  ~/dev/re-0.5.4/src/sa/sa.c
+-'  24  27  ~/dev/mcs-sip/config/default.json
+-'  8  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  1  2  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  9  0  ~/dev/re-0.5.4/src/sa/sa.c
+-'  1  0  ~/dev/re-0.5.4/src/sa/sa.
+-'  16  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  18  2  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  1  0  ~/dev/re-0.5.4/src/sa/sa.c
+-'  28  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  93  8  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  90  25  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  91  47  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  139  0  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  1  0  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  1  2  ~/dev/re-0.5.4/src/bfcp/NERD_tree_1
+-'  1  1  ~/dev/re-0.5.4/src/bfcp/request.c
+-'  1  2  ~/dev/NERD_tree_1
+-'  8  2  ~/dev/NERD_tree_1
+-'  5  0  ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+-'  26  0  ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+-'  1  0  ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+-'  1  0  ~/dev/mcs-sip/lib/sip/handlers/VideoHandlerMCS.js
+-'  67  0  ~/dev/mcs-bfcp-1/src/udp_server/redisgw.c
+-'  1  0  ~/dev/mcs-bfcp-1/src/udp_server/redisgw.c
+-'  4  1  ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+-'  8  2  ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/backup/redemo-0.4.1/src/udp_server/pravbfcp.h
+-'  1  2  ~/dev/backup/redemo-0.4.1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/backup/redemo-0.4.1/src/udp_server/pravbfcp.c
+-'  70  0  ~/dev/pravBFCP/pravbfcp_cpp.cpp
+-'  1  0  ~/dev/pravBFCP/pravbfcp_cpp2.cpp
+-'  20  46  ~/dev/redemo-0.4.1/Makefile
+-'  2  0  ~/dev/redemo-0.4.1/Makefile
+-'  9  38  ~/dev/redemo-0.4.1/src/udp_server/demo.mk
+-'  10  0  ~/dev/redemo-0.4.1/src/udp_server/demo.mk
+-'  8  37  ~/dev/redemo-0.4.1/src/udp_server/demo.mk
+-'  4  1  ~/dev/pravBFCP/NERD_tree_1
+-'  10  2  ~/dev/pravBFCP/NERD_tree_1
+-'  1  0  ~/dev/pravBFCP/NERD_tree_1
+-'  164  0  ~/dev/pravBFCP/pravbfcp_cpp.cpp
+-'  4  1  ~/dev/redemo-0.4.1/src/udp_server/NERD_tree_1
+-'  16  2  ~/dev/redemo-0.4.1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/redemo-0.4.1/src/udp_server/NERD_tree_1
+-'  28  8  ~/dev/redemo-0.4.1/src/udp_server/redisgw.c
+-'  12  1  ~/dev/pravBFCP/NERD_tree_1
+-'  18  2  ~/dev/pravBFCP/NERD_tree_1
+-'  166  0  ~/dev/pravBFCP/pravbfcp_cpp.cpp
+-'  1  0  ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/PravBFCP.c
+-'  4  1  ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_2
+-'  8  2  ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_2
+-'  1  0  ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_2
+-'  1  0  ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_1
+-'  19  0  ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_1
+-'  47  23  ~/teste
+-'  1  0  ~/teste
+-'  58  41  ~/Downloads/wireshark-2.4.2/INSTALL
+-'  31  0  ~/Downloads/wireshark-2.4.2/README
+-'  1  0  ~/Downloads/wireshark-2.4.2/README
+-'  25  12  ~/dev/redemo-0.4.1/src/udp_server/udp_server.c
+-'  8  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  1  2  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  1  0  ~/dev/re-0.5.4/src/sa/sa.
+-'  16  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  18  2  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  28  0  ~/dev/re-0.5.4/src/sa/NERD_tree_1
+-'  93  8  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  90  25  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  91  47  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  139  0  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  1  0  ~/dev/re-0.5.4/src/bfcp/conn.c
+-'  1  2  ~/dev/re-0.5.4/src/bfcp/NERD_tree_1
+-'  1  1  ~/dev/re-0.5.4/src/bfcp/request.c
+-'  1  2  ~/dev/NERD_tree_1
+-'  8  2  ~/dev/NERD_tree_1
+-'  5  0  ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+-'  26  0  ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+-'  1  0  ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+-'  1  0  ~/dev/mcs-sip/lib/sip/handlers/VideoHandlerMCS.js
+-'  67  0  ~/dev/mcs-bfcp-1/src/udp_server/redisgw.c
+-'  1  0  ~/dev/mcs-bfcp-1/src/udp_server/redisgw.c
+-'  4  1  ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+-'  8  2  ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/backup/redemo-0.4.1/src/udp_server/pravbfcp.h
+-'  1  2  ~/dev/backup/redemo-0.4.1/src/udp_server/NERD_tree_1
+-'  1  0  ~/dev/backup/redemo-0.4.1/src/udp_server/pravbfcp.c
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/dev/re-0.5.4/include/re_types.h
+-'  29  7  ~/dev/re-0.5.4/src/sa/sa.c
+-'  12  13  ~/dev/re-0.5.4/src/sa/sa.c
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/dev/mcs-sip/config/default.json
+	"	40	25
+	^	40	26
+	.	40	25
+	+	6	34
+	+	35	23
+	+	3	32
+	+	6	0
+	+	24	0
+	+	33	0
+	+	56	0
+	+	3	43
+	+	6	33
+	+	3	31
+	+	33	0
+	+	34	0
+	+	33	30
+	+	40	22
+	+	24	0
+	+	40	25
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
+
+> ~/dev/re-0.5.4/include/re_types.h
+	"	1	0
+
+> ~/dev/re-0.5.4/src/sa/sa.c
+	"	29	7
+
+> ~/dev/re-0.5.4/src/NERD_tree_1
+	"	5	3
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/mcs-sip/NERD_tree_1
+	"	4	1
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/re-0.5.4/src/sa/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/re-0.5.4/src/sa/sa.h
+	"	2	20
+
+> ~/dev/QMediaPlayer/src/PravSIP/PravBFCP.cpp
+	"	6	0
+
+> ~/dev/QMediaPlayer/src/PravSIP/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/QMediaPlayer/src/PravSIP/PravBFCP.h
+	"	1	0
+
+> ~/dev/QMediaPlayer/src/PravSIP/Endpoint.h
+	"	85	10
+
+> ~/dev/QMediaPlayer/src/PravSIP/Endpoint.cpp
+	"	161	1
+
+> ~/dev/mcs-bfcp-1/src/udp_server/redisgw.c
+	"	193	0
+	^	195	45
+	.	195	44
+	+	186	0
+	+	179	21
+	+	180	12
+	+	182	0
+	+	181	48
+	+	185	0
+	+	184	23
+	+	181	28
+	+	184	33
+	+	181	40
+	+	184	62
+	+	181	38
+	+	184	54
+	+	76	13
+	+	18	20
+	+	76	0
+	+	51	0
+	+	103	0
+	+	119	0
+	+	112	1
+	+	102	0
+	+	189	17
+	+	201	0
+	+	191	27
+	+	192	55
+	+	194	86
+	+	178	0
+	+	200	4
+	+	197	16
+	+	197	27
+	+	197	21
+	+	197	16
+	+	199	3
+	+	197	2
+	+	199	2
+	+	200	2
+	+	198	22
+	+	199	15
+	+	200	0
+	+	189	13
+	+	19	20
+	+	194	77
+	+	195	44
+
+> ~/dev/mcs-bfcp-1/src/udp_server/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/mcs-bfcp-1/src/udp_server/redisgw.h
+	"	8	12
+	.	9	0
+	+	8	14
+	+	37	17
+	+	9	15
+	+	9	0
+	+	8	14
+	+	8	14
+	+	9	0
+
+> ~/dev/re-0.5.4/src/bfcp/bfcp.h
+	"	22	10
+	^	22	11
+	.	19	55
+	+	21	38
+	+	23	38
+	+	19	55
+
+> ~/dev/re-0.5.4/src/bfcp/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/re-0.5.4/src/bfcp/conn.c
+	"	86	38
+
+> ~/dev/re-0.5.4/src/sa/sa.
+	"	1	0
+
+> ~/dev/mcs-sip/server.js
+	"	1	0
+
+> ~/dev/re-0.5.4/src/bfcp/request.c
+	"	1	1
+
+> ~/dev/NERD_tree_1
+	"	1	2
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/mcs-sip/lib/sip/handlers/VideoHandlerMCS.js
+	"	284	0
+
+> ~/dev/mcs-sip/lib/sip/handlers/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/hiredis/README.md
+	"	361	74
+	^	34	0
+	.	1	0
+	+	1	0
+
+> ~/dev/backup/redemo-0.4.1/src/udp_server/pravbfcp.c
+	"	71	2
+
+> ~/dev/backup/redemo-0.4.1/src/udp_server/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/backup/redemo-0.4.1/src/udp_server/pravbfcp.h
+	"	1	0
+
+> ~/dev/pravBFCP/pravbfcp_cpp.cpp
+	"	70	0
+	^	5	6
+	.	5	5
+	+	10	14
+	+	22	6
+	+	27	16
+	+	29	26
+	+	32	17
+	+	60	35
+	+	68	10
+	+	69	13
+	+	68	26
+	+	111	41
+	+	112	57
+	+	116	11
+	+	123	11
+	+	124	10
+	+	149	16
+	+	154	48
+	+	160	0
+	+	5	5
+
+> ~/dev/pravBFCP/pravbfcp_cpp2.cpp
+	"	1	0
+
+> ~/dev/redemo-0.4.1/Makefile
+	"	20	46
+	^	20	47
+	.	20	46
+	+	26	33
+	+	11	0
+	+	26	39
+	+	26	0
+	+	13	1
+	+	13	0
+	+	14	0
+	+	10	0
+	+	20	46
+
+> ~/dev/redemo-0.4.1/src/udp_server/demo.mk
+	"	9	38
+	^	9	44
+	.	9	38
+	+	8	36
+	+	9	0
+	+	8	48
+	+	9	31
+	+	8	48
+	+	9	34
+	+	8	37
+	+	9	38
+
+> ~/dev/pravBFCP/NERD_tree_1
+	"	4	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/redemo-0.4.1/src/udp_server/redisgw.c
+	"	99	23
+	^	37	9
+	.	37	0
+	+	35	0
+	+	41	0
+	+	40	27
+	+	27	14
+	+	40	25
+	+	22	29
+	+	24	34
+	+	40	28
+	+	23	24
+	+	24	44
+	+	39	35
+	+	13	0
+	+	37	16
+	+	60	4
+	+	59	73
+	+	38	0
+	+	43	2
+	+	43	0
+	+	46	12
+	+	13	0
+	+	12	3
+	+	96	30
+	+	113	0
+	+	97	48
+	+	104	0
+	+	98	24
+	+	109	38
+	+	112	0
+	+	107	16
+	+	106	45
+	+	107	33
+	+	107	44
+	+	104	0
+	+	98	30
+	+	101	0
+	+	99	46
+	+	87	24
+	+	84	25
+	+	90	28
+	+	100	12
+	+	102	8
+	+	104	0
+	+	102	11
+	+	105	11
+	+	103	35
+	+	80	21
+	+	108	27
+	+	71	34
+	+	75	0
+	+	80	29
+	+	108	28
+	+	46	46
+	+	71	0
+	+	46	38
+	+	72	0
+	+	71	36
+	+	80	13
+	+	16	19
+	+	15	19
+	+	16	15
+	+	15	16
+	+	16	28
+	+	25	28
+	+	14	1
+	+	12	0
+	+	14	55
+	+	21	4
+	+	54	4
+	+	95	4
+	+	107	4
+	+	10	18
+	+	54	5
+	+	9	17
+	+	35	23
+	+	62	21
+	+	10	19
+	+	110	34
+	+	51	35
+	+	104	0
+	+	32	0
+	+	35	0
+	+	72	0
+	+	101	18
+	+	79	0
+	+	75	0
+	+	39	0
+	+	43	0
+	+	52	19
+	+	35	4
+	+	35	0
+	+	35	0
+	+	35	0
+	+	43	0
+	+	129	44
+	+	116	0
+	+	129	44
+	+	28	8
+	+	28	0
+	+	29	69
+	+	37	0
+
+> ~/dev/redemo-0.4.1/src/udp_server/NERD_tree_1
+	"	12	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/redemo-0.4.1/src/udp_server/bfcp.tar.gz
+	"	102	0
+	.	5	0
+	+	5	0
+
+> ~/dev/redemo-0.4.1/src/udp_server/bfcpConfigFile
+	"	799	24
+	^	799	33
+	.	799	24
+	+	35	29
+	+	799	24
+
+> ~/dev/redemo-0.4.1/src/udp_server/pravbfcp.c
+	"	69	0
+	^	21	3
+	.	20	0
+	+	5	0
+	+	7	0
+	+	5	17
+	+	36	3
+	+	41	4
+	+	27	3
+	+	45	0
+	+	7	13
+	+	8	0
+	+	45	0
+	+	6	14
+	+	135	25
+	+	81	6
+	+	73	1
+	+	66	23
+	+	12	19
+	+	20	6
+	+	12	0
+	+	6	14
+	+	1	17
+	+	2	0
+	+	5	0
+	+	3	17
+	+	4	19
+	+	3	17
+	+	26	16
+	+	24	19
+	+	26	17
+	+	24	20
+	+	6	1
+	+	5	0
+	+	6	0
+	+	20	2
+	+	20	0
+
+> ~/dev/redemo-0.4.1/src/udp_server/pravbfcp.h
+	"	32	5
+	^	32	6
+	.	32	5
+	+	4	1
+	+	11	0
+	+	11	0
+	+	11	0
+	+	8	1
+	+	30	4
+	+	11	0
+	+	11	0
+	+	10	0
+	+	10	0
+	+	9	0
+	+	32	6
+	+	24	20
+	+	32	5
+
+> ~/dev/redemo-0.4.1/src/udp_server/redisgw.h
+	"	7	27
+	^	7	23
+	.	7	22
+	+	1	2
+	+	1	18
+	+	1	0
+	+	1	18
+	+	2	19
+	+	3	19
+	+	4	0
+	+	5	20
+	+	6	0
+	+	7	29
+	+	8	0
+	+	5	17
+	+	7	22
+
+> ~/dev/redemo-0.4.1/src/udp_server/udp_server.c
+	"	43	0
+	.	61	0
+	+	102	0
+	+	86	2
+	+	86	2
+	+	54	14
+	+	13	27
+	+	57	11
+	+	54	2
+	+	87	0
+	+	57	20
+	+	58	26
+	+	45	29
+	+	58	60
+	+	60	41
+	+	86	0
+	+	62	27
+	+	56	36
+	+	54	34
+	+	63	2
+	+	70	2
+	+	63	31
+	+	63	18
+	+	64	51
+	+	65	28
+	+	54	0
+	+	54	20
+	+	55	0
+	+	59	0
+	+	59	0
+	+	62	18
+	+	62	1
+	+	62	0
+	+	61	40
+	+	84	0
+	+	61	27
+	+	62	0
+	+	58	0
+	+	52	0
+	+	82	25
+	+	45	12
+	+	59	24
+	+	60	13
+	+	61	0
+	+	63	0
+	+	86	0
+	+	99	0
+	+	40	0
+	+	30	0
+	+	68	2
+	+	69	0
+	+	69	0
+	+	69	0
+	+	54	2
+	+	54	0
+	+	53	0
+	+	54	0
+	+	70	0
+	+	99	0
+	+	13	27
+	+	54	20
+	+	54	2
+	+	54	43
+	+	13	27
+	+	54	2
+	+	54	3
+	+	54	1
+	+	54	0
+	+	54	1
+	+	13	28
+	+	42	0
+	+	13	9
+	+	55	0
+	+	13	8
+	+	13	18
+	+	61	2
+	+	61	24
+	+	61	24
+	+	61	2
+	+	61	29
+	+	13	0
+	+	61	0
+	+	61	16
+	+	61	12
+	+	61	2
+	+	61	16
+	+	61	24
+	+	61	9
+	+	61	2
+	+	61	8
+	+	61	32
+	+	12	0
+	+	30	66
+	+	31	2
+	+	61	20
+	+	61	2
+	+	61	26
+	+	61	20
+	+	61	0
+	+	72	1
+	+	71	0
+	+	61	0
+
+> ~/dev/redemo-0.4.1/src/udp_server/mcsRedisGW.c
+	"	3	0
+	^	3	1
+	.	2	28
+	+	40	0
+	+	38	3
+	+	33	2
+	+	37	0
+	+	34	6
+	+	33	53
+	+	35	49
+	+	34	13
+	+	35	52
+	+	36	49
+	+	38	8
+	+	38	18
+	+	39	0
+	+	38	33
+	+	39	1
+	+	10	22
+	+	31	0
+	+	38	5
+	+	39	0
+	+	40	0
+	+	3	0
+	+	2	1
+	+	9	19
+	+	2	28
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/PravBFCP.h
+	"	2	0
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/NERD_tree_1
+	"	15	0
+	.	1	0
+	+	1	0
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/PravBFCP.cpp
+	"	114	0
+	^	66	43
+	.	39	0
+	+	39	0
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/Endpoint.h
+	"	2	1
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/Endpoint.cpp
+	"	155	40
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/PravSDP.cpp
+	"	370	11
+
+> ~/dev/redemo-0.4.1/src/udp_server/bak/pravbfcp.c
+	"	70	0
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/src/PravSIP/PravBFCP.c
+	"	1	0
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Downloads/QMediaPlayer-feature-BFCP/NERD_tree_2
+	"	4	1
+	.	1	0
+	+	1	0
+
+> ~/teste
+	"	47	23
+	^	74	0
+	.	156	0
+	+	1	46
+	+	156	0
+
+> ~/NERD_tree_1
+	"	4	1
+	.	1	0
+	+	1	0
+
+> ~/Downloads/wireshark-2.4.2/README
+	"	31	0
+
+> ~/Downloads/wireshark-2.4.2/NERD_tree_1
+	"	87	1
+	.	1	0
+	+	1	0
+
+> ~/Downloads/wireshark-2.4.2/INSTALL
+	"	58	41
+
+> ~/Downloads/libgcrypt-1.7.5/INSTALL
+	"	1	0
+
+> ~/dev/git/hiredis/examples/example.c
+	"	13	0
+	^	14	0
+	.	14	0
+	+	14	0
+
+> ~/dev/redemo-0.4.1/src/sip_ua/demo.mk
+	"	1	0
+
+> ~/dev/redemo-0.4.1/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/redemo-0.4.1/mk/dmo.mk
+	"	14	45
+	^	14	55
+	.	14	0
+	+	14	0
+
+> ~/dev/re/include/re.h
+	"	2	0
+
+> ~/dev/redemo-0.4.1/core
+	"	3	0
+	^	3	0
+	.	2	2
+	+	2	2
+
+> ~/dev/redemo-0.4.1/src/udp_server/Makefile
+	"	11	60
+	^	11	61
+	.	11	60
+	+	12	31
+	+	12	0
+	+	13	41
+	+	11	38
+	+	13	28
+	+	13	0
+	+	13	63
+	+	12	0
+	+	11	60
+
+> ~/Makefile
+	"	9	0
+	^	5	17
+	.	9	0
+	+	2	0
+	+	16	0
+	+	16	0
+	+	5	16
+	+	2	0
+	+	7	10
+	+	9	0
+
+> ~/dev/re/README.md
+	"	9	3
+
+> ~/dev/redemo-0.4.1/src/NERD_tree_1
+	"	5	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/redemo-0.4.1/src/tcp_server/demo.mk
+	"	3	0
+
+> /etc/ld.so.conf
+	"	2	13
+	^	2	15
+	.	2	13
+	+	3	0
+	+	2	13
+
+> /etc/ld.so.conf.d/libc.conf
+	"	1	0
+
+> etc/ld.so.conf
+	"	1	0
+
+> ~/dev/re-0.5.4/src/bfcp/attr.c
+	"	61	24
+
+> ~/dev/pravBFCP/pravbfcp_cpp2.cpp~
+	"	1	1
+
+> ~/dev/pravBFCP/pravbfcp_hpp.cpp~
+	"	1	0
+
+> ~/dev/pravBFCP/pravbfcp_cpp.cpp~
+	"	1	0
+
+> ~/dev/pravBFCP/pravbfcp_cpp
+	"	1	0
+
+> ~/dev/redemo-0.4.1/MA
+	"	1	0
+
+> ~/dev/redemo-0.4.1/docs/dmo.mk
+	"	1	0
+
+> ~/Downloads/pravbfcp_hpp.cpp
+	"	22	24
+
+> ~/Downloads/NERD_tree_1
+	"	12	19
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/pravBFCP/pravbfcp_hpp.cpp
+	"	33	0
+	.	33	0
+	+	34	44
+	+	34	45
+	+	34	44
+	+	34	27
+	+	34	33
+	+	34	34
+	+	34	38
+	+	34	44
+	+	34	18
+	+	34	15
+	+	34	17
+	+	34	0
+	+	34	13
+	+	34	13
+	+	34	0
+	+	34	14
+	+	34	0
+	+	34	11
+	+	34	0
+	+	34	13
+	+	34	14
+	+	34	16
+	+	34	15
+	+	34	0
+	+	35	0
+	+	33	0
+
+> ~/dev/re-0.5.4/src/main/init.c
+	"	46	0
+
+> ~/dev/pravbfcp_cpp.cpp
+	"	159	0
+	^	71	33
+	.	25	3
+	+	4	13
+	+	18	12
+	+	101	0
+	+	100	4
+	+	106	4
+	+	113	3
+	+	127	8
+	+	157	4
+	+	170	4
+	+	176	4
+	+	3	4
+	+	17	3
+	+	17	0
+	+	25	3
+
+> ~/dev/pravbfcp_hpp.cpp
+	"	53	13
+
+> ~/dev/prav_to_c.c
+	"	71	40
+	.	77	46
+	+	107	46
+	+	108	3
+	+	111	40
+	+	36	74
+	+	111	0
+	+	111	67
+	+	116	0
+	+	112	37
+	+	115	0
+	+	113	26
+	+	114	13
+	+	36	50
+	+	36	50
+	+	36	55
+	+	36	55
+	+	88	5
+	+	89	5
+	+	90	5
+	+	91	5
+	+	92	5
+	+	92	0
+	+	95	4
+	+	95	3
+	+	96	1
+	+	97	1
+	+	98	0
+	+	36	86
+	+	36	85
+	+	84	37
+	+	4	0
+	+	2	0
+	+	6	1
+	+	8	17
+	+	20	17
+	+	8	23
+	+	16	7
+	+	17	7
+	+	20	23
+	+	22	17
+	+	23	12
+	+	27	42
+	+	32	29
+	+	34	9
+	+	36	9
+	+	36	71
+	+	36	50
+	+	36	53
+	+	36	53
+	+	36	53
+	+	95	3
+	+	96	0
+	+	97	1
+	+	100	1
+	+	109	2
+	+	145	9
+	+	154	51
+	+	155	3
+	+	154	15
+	+	160	0
+	+	36	53
+	+	36	54
+	+	36	93
+	+	36	90
+	+	36	133
+	+	36	126
+	+	36	65
+	+	36	50
+	+	36	77
+	+	36	102
+	+	84	21
+	+	87	21
+	+	93	14
+	+	95	0
+	+	36	77
+	+	30	60
+	+	36	91
+	+	10	13
+	+	22	19
+	+	36	80
+	+	36	68
+	+	36	75
+	+	36	63
+	+	36	62
+	+	36	62
+	+	81	13
+	+	137	20
+	+	16	14
+	+	17	15
+	+	22	5
+	+	10	13
+	+	28	0
+	+	111	0
+	+	112	0
+	+	154	0
+	+	36	90
+	+	36	0
+	+	71	0
+	+	77	47
+	+	60	59
+	+	77	46
+
+> ~/dev/git/hiredis/hiredis.h
+	"	102	7
+
+> ~/dev/git/hiredis/NERD_tree_1
+	"	17	1
+	^	324	8
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/git/hiredis/hiredis.c
+	"	991	0
+	^	501	4
+	.	674	0
+	+	674	0
+	+	501	0
+	+	500	0
+	+	674	0
+
+> ~/dev/pravbfcp_c
+	"	1	0
+
+> ~/dev/re-0.5.4/README.md
+	"	29	10
+
+> ~/dev/git/hiredis/examples/NERD_tree_1
+	"	5	11
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/dev/git/hiredis/examples/example-ae.c
+	"	11	24
+
+> ~/dev/git/hiredis/net.h
+	"	1	0
+
+> ~/dev/git/hiredis/net.c
+	"	432	25
+
+> ~/dev/git/hiredis/sds.h
+	"	1	0
+
+> ~/dev/git/hiredis/read.h
+	"	1	0
+
+> ~/dev/git/hiredis/Makefile
+	"	177	0
+
+> ~/dev/redemo-0.4.1/src/demo.mk
+	"	1	0
